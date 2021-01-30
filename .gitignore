@@ -8,4 +8,6 @@ build*.gen
 build*.properties
 /target
 /distrib
+/public/binary
+/public/pbl
 
