@@ -1,5 +1,8 @@
 # PBUnitTest
 
+![Screenshot](./docs/test_calc.png)
+![Screenshot](./docs/run_tests.png)
+
 ## Getting Started
 
 Установить все зависимости
