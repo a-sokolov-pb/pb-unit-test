@@ -24,9 +24,6 @@
     </target>
     
     <target name="nested-package">
-		<delete failonerror="false">
-            <fileset dir="${target.dir}" includes="pb_unit_test_core.pbd" />
-        </delete>
         <!-- 
             Your implementation!
             Target properties:

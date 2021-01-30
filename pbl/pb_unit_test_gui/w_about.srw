@@ -51,7 +51,7 @@ event open;this.title = "About " + getapplication().displayname
 st_info.text = "Application for run PowerBuilder 9.0 unit tests."
 st_info.text += "~r~n~r~nAuthor, Sokolov A.V. 2020"
 
-p_logo.picturename = "logo.jpg"
+p_logo.picturename = ".\assets\logo.jpg"
 
 return
 end event
