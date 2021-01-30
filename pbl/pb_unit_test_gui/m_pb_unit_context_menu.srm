@@ -1,0 +1,84 @@
+$PBExportHeader$m_pb_unit_context_menu.srm
+forward
+global type m_pb_unit_context_menu from menu
+end type
+type m_run_all from menu within m_pb_unit_context_menu
+end type
+type m_run_selected from menu within m_pb_unit_context_menu
+end type
+global type m_pb_unit_context_menu from menu
+m_run_all m_run_all
+m_run_selected m_run_selected
+end type
+end forward
+
+global type m_pb_unit_context_menu from menu
+m_run_all m_run_all
+m_run_selected m_run_selected
+end type
+global m_pb_unit_context_menu m_pb_unit_context_menu
+
+type variables
+private:
+
+powerobject ipo
+end variables
+
+forward prototypes
+public subroutine set_requestor (readonly powerobject apo)
+end prototypes
+
+public subroutine set_requestor (readonly powerobject apo);ipo = apo
+
+return
+end subroutine
+
+on m_pb_unit_context_menu.create
+m_pb_unit_context_menu=this
+call super::create
+this.m_run_all=create m_run_all
+this.m_run_selected=create m_run_selected
+this.Item[UpperBound(this.Item)+1]=this.m_run_all
+this.Item[UpperBound(this.Item)+1]=this.m_run_selected
+end on
+
+on m_pb_unit_context_menu.destroy
+call super::destroy
+destroy(this.m_run_all)
+destroy(this.m_run_selected)
+end on
+
+type m_run_all from menu within m_pb_unit_context_menu
+end type
+
+event clicked;ipo.triggerevent("run_all")
+
+return
+end event
+
+on m_run_all.create
+call super::create
+this.text = "Run all"
+end on
+
+on m_run_all.destroy
+call super::destroy
+end on
+
+type m_run_selected from menu within m_pb_unit_context_menu
+end type
+
+on m_run_selected.create
+call super::create
+this.text = "Run selected"
+end on
+
+on m_run_selected.destroy
+call super::destroy
+end on
+
+event clicked;ipo.triggerevent("run_selected")
+
+return
+end event
+

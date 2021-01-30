@@ -1,0 +1,15 @@
+$PBExportHeader$f_app_settings.srf
+global type f_app_settings from function_object
+end type
+
+forward prototypes
+global function n_app_settings f_app_settings ()
+end prototypes
+
+global function n_app_settings f_app_settings ();if not isvalid(n_app_settings) then
+	n_app_settings = create n_app_settings
+end if
+
+return n_app_settings
+end function
+

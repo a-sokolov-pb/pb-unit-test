@@ -1,0 +1,29 @@
+{
+  "name": "PowerBuilder Unit Test",
+  "version": "1.0",
+  "description": "PowerBuilder Unit Test Application",
+  "application": {
+    "name": "pb_unit_test",
+    "library": "pb_unit_test.pbl",
+    "target": "pb_unit_test.pbt",
+    "ws": "pb_unit_test.pbw"
+  },
+  "deploy": {
+    "exe": "pb_unit_test.exe",
+    "favicon": "favicon.ico",
+    "zip": "pb_unit_test.zip",
+    "pbr": "pb_unit_test.pbr",
+	"resources": ["assets"]
+  },
+  "libraries": {
+     "pb_unit_test.pbl": ".",
+	 "pb_unit_test_core.pbl": "pbl\\pb_unit_test_core",
+     "pb_unit_test_api.pbl": "pbl\\pb_unit_test_api",
+	 "pb_unit_test_gui.pbl": "pbl\\pb_unit_test_gui",
+	 "pb_unit_test_reflection.pbl": "pbl\\pb_unit_test_reflection",
+	 "pb_unit_test_runner.pbl": "pbl\\pb_unit_test_runner",
+	 "common.pbd": "pbd",
+	 "io.pbd": "pbd",
+	 "pb_addon.pbd": "pbd"
+  }
+}

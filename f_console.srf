@@ -1,0 +1,15 @@
+$PBExportHeader$f_console.srf
+global type f_console from function_object
+end type
+
+forward prototypes
+global function n_console f_console ()
+end prototypes
+
+global function n_console f_console ();if not isvalid(n_console) then
+	n_console = create n_console
+end if
+
+return n_console
+end function
+

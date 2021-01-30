@@ -1,0 +1,15 @@
+$PBExportHeader$f_test_context.srf
+global type f_test_context from function_object
+end type
+
+forward prototypes
+global function n_test_context f_test_context ()
+end prototypes
+
+global function n_test_context f_test_context ();if not isvalid(n_test_context) then
+	n_test_context = create n_test_context
+end if
+
+return n_test_context
+end function
+

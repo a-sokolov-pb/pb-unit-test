@@ -1,0 +1,11 @@
+*.pbl
+*.pbc
+*.log
+*.exe
+*.pbd
+!pbd/*.pbd
+build*.gen
+build*.properties
+/target
+/distrib
+

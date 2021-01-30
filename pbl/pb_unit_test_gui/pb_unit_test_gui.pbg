@@ -1,0 +1,18 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl" "";
+@end;
+@begin Objects
+ "pbl\\pb_unit_test_gui\\f_app_settings.srf" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\w_about.srw" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\n_app_settings.sru" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\m_pb_unit_test.srm" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\cv_tests.sru" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\w_pb_unit_test.srw" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\w_confirm_exit.srw" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\m_pb_unit_context_menu.srm" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\cv_button.sru" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\cv_progress.sru" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\cv_output.sru" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+ "pbl\\pb_unit_test_gui\\w_settings.srw" "pbl\\pb_unit_test_gui\\pb_unit_test_gui.pbl";
+@end;

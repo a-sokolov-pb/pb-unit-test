@@ -1,0 +1,10 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "pbl\\pb_unit_test_reflection\\pb_unit_test_reflection.pbl" "";
+@end;
+@begin Objects
+ "pbl\\pb_unit_test_reflection\\d_library_objects_list.srd" "pbl\\pb_unit_test_reflection\\pb_unit_test_reflection.pbl";
+ "pbl\\pb_unit_test_reflection\\n_unit_test_reflection.sru" "pbl\\pb_unit_test_reflection\\pb_unit_test_reflection.pbl";
+ "pbl\\pb_unit_test_reflection\\n_unit_test_library.sru" "pbl\\pb_unit_test_reflection\\pb_unit_test_reflection.pbl";
+ "pbl\\pb_unit_test_reflection\\n_unit_test_reflection_in_pb_mode.sru" "pbl\\pb_unit_test_reflection\\pb_unit_test_reflection.pbl";
+@end;

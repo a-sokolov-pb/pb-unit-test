@@ -1,0 +1,15 @@
+$PBExportHeader$f_assert.srf
+global type f_assert from function_object
+end type
+
+forward prototypes
+global function n_assert f_assert ()
+end prototypes
+
+global function n_assert f_assert ();if not isvalid(n_assert) then
+	n_assert = create n_assert
+end if
+
+return n_assert
+end function
+
